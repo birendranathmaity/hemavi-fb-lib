@@ -1,9 +1,8 @@
-console.log("bbbbbbbbbbbbbb")
+console.log("fb pixel event init()====>")
 var doms=document.querySelectorAll('a[id=fb-action]');
-
-doms.forEach(btn => {
+doms.forEach((btn,i) => {
 btn.addEventListener('click', function(e) {
-alert('kk')
+alert(doms[i].href)
   e.preventDefault();
 console.log(e)
 });
