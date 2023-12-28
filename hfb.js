@@ -1,3 +1,4 @@
+console.log("bbbbbbbbbbbbbb")
 var doms=document.querySelectorAll('a[id=fb-action]');
 
 doms.forEach(btn => {
